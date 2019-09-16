@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/home/Page.dart';
+import './router/routes.dart';
 
 class App extends StatelessWidget {
   @override
@@ -10,9 +10,8 @@ class App extends StatelessWidget {
         primaryColor: Colors.green,
         brightness: Brightness.light,
       ),
-      home: HomePage(),
-      routes: <String, WidgetBuilder>{
-      },
+      initialRoute: '/home',
+      routes: routes,
     );
   }
 }

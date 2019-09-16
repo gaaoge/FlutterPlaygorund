@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import './widgets/PlayList.dart';
 
-class HomePage extends StatelessWidget {
+class BasicPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('主页'),
+        title: Text('基础'),
       ),
-      body: PlayList(),
+      body: Center(
+        child: Text('BasicPage'),
+      ),
     );
   }
 }
