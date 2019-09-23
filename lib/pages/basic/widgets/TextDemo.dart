@@ -22,12 +22,31 @@ class TextDemo extends StatelessWidget {
             style: TextStyle(fontStyle: FontStyle.italic),
           ),
           Text(
-            '字体行高',
-            style: TextStyle(height: 2),
-          ),
-          Text(
             '字体大小',
             style: TextStyle(fontSize: 20),
+          ),
+          Text.rich(
+            TextSpan(
+              text: '富',
+              children: <TextSpan>[
+                TextSpan(
+                  text: '文',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                TextSpan(
+                  text: '本',
+                  style: TextStyle(color: Colors.green),
+                ),
+                TextSpan(
+                  text: '字',
+                  style: TextStyle(fontStyle: FontStyle.italic),
+                ),
+                TextSpan(
+                  text: '体',
+                  style: TextStyle(fontSize: 16),
+                ),
+              ],
+            ),
           ),
           Text(
             '字体溢出字体溢出字体溢出字体溢出字体溢出字体溢出字体溢出字体溢出',
