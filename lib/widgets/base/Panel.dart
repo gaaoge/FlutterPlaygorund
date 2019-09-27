@@ -15,7 +15,10 @@ class BasePanel extends StatelessWidget {
         children: <Widget>[
           Text(
             title,
-            style: const TextStyle(fontWeight: FontWeight.bold),
+            style: const TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 16,
+            ),
           ),
           Center(child: child),
         ],

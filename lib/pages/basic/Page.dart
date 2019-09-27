@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './widgets/TextDemo.dart';
+import './widgets/ButtonDemo.dart';
 
 class BasicPage extends StatelessWidget {
   @override
@@ -8,9 +9,10 @@ class BasicPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('基础'),
       ),
-      body: Column(
-        children: [
+      body: ListView(
+        children: <Widget>[
           TextDemo(),
+          ButtonDemo(),
         ],
       ),
     );
