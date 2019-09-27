@@ -87,6 +87,16 @@ class ButtonDemo extends StatelessWidget {
             backgroundColor: Colors.green,
             onPressed: () {},
           ),
+          RaisedButton(
+            color: Colors.blue,
+            highlightColor: Colors.blue[600],
+            colorBrightness: Brightness.dark,
+            splashColor: Colors.grey,
+            child: Text("自定义按钮"),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20.0)),
+            onPressed: () {},
+          ),
           ButtonBar(
             alignment: MainAxisAlignment.center,
             children: <Widget>[

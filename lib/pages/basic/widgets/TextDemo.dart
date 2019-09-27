@@ -49,9 +49,16 @@ class TextDemo extends StatelessWidget {
             ),
           ),
           Text(
+            '特殊字体文本',
+            style: TextStyle(
+              fontFamily: 'lanting',
+              fontSize: 20,
+            ),
+          ),
+          Text(
             '字体溢出字体溢出字体溢出字体溢出字体溢出字体溢出字体溢出字体溢出',
             overflow: TextOverflow.ellipsis,
-          ),
+          )
         ],
       ),
     );
