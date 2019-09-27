@@ -20,7 +20,7 @@ class ButtonDemo extends StatelessWidget {
             onPressed: () {},
           ),
           FlatButton.icon(
-            icon: Icon(Icons.arrow_right),
+            icon: Icon(Icons.info),
             label: Text('图标按钮'),
             onPressed: () {},
           ),

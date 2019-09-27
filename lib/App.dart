@@ -9,6 +9,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.green,
         brightness: Brightness.light,
+        platform: TargetPlatform.iOS,
       ),
       initialRoute: '/home',
       routes: routes,
