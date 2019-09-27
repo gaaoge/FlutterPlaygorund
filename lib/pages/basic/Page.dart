@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './widgets/TextDemo.dart';
 import './widgets/ButtonDemo.dart';
+import './widgets/ImageDemo.dart';
 
 class BasicPage extends StatelessWidget {
   @override
@@ -13,6 +14,7 @@ class BasicPage extends StatelessWidget {
         children: <Widget>[
           TextDemo(),
           ButtonDemo(),
+          ImageDemo(),
         ],
       ),
     );
