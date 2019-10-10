@@ -5,6 +5,8 @@ import './widgets/ImageDemo.dart';
 import './widgets/SwitchDemo.dart';
 import './widgets/CheckBoxDemo.dart';
 import './widgets/InputDemo.dart';
+import './widgets/FormDemo.dart';
+import './widgets/ProgressDemo.dart';
 
 class BasicPage extends StatelessWidget {
   @override
@@ -21,6 +23,8 @@ class BasicPage extends StatelessWidget {
           SwitchDemo(),
           CheckBoxDemo(),
           InputDemo(),
+          FormDemo(),
+          ProgressDemo()
         ],
       ),
     );
