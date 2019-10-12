@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import './widgets/RowDemo.dart';
+import './widgets/FlexDemo.dart';
 
 class LayoutPage extends StatelessWidget {
   @override
@@ -7,8 +9,10 @@ class LayoutPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('布局'),
       ),
-      body: Center(
-        child: Text('LayoutPage'),
+      body: ListView(
+        children: <Widget>[
+          RowDemo(),
+        ],
       ),
     );
   }
