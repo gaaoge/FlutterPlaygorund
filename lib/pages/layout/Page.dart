@@ -12,6 +12,7 @@ class LayoutPage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           RowDemo(),
+          FlexDemo(),
         ],
       ),
     );
