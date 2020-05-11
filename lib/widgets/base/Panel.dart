@@ -20,7 +20,10 @@ class BasePanel extends StatelessWidget {
               fontSize: 16,
             ),
           ),
-          Center(child: child),
+          Padding(
+            padding: const EdgeInsets.only(top: 10),
+            child: Center(child: child),
+          )
         ],
       ),
     );
