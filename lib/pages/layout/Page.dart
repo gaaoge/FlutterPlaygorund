@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import './widgets/RowDemo.dart';
 import './widgets/FlexDemo.dart';
+import './widgets/WrapDemo.dart';
+import './widgets/StackDemo.dart';
 
 class LayoutPage extends StatelessWidget {
   @override
@@ -13,6 +15,8 @@ class LayoutPage extends StatelessWidget {
         children: <Widget>[
           RowDemo(),
           FlexDemo(),
+          WrapDemo(),
+          StackDemo(),
         ],
       ),
     );
