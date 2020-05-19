@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './widgets/PaddingDemo.dart';
+import './widgets/ConstrainDemo.dart';
 
 class GroupPage extends StatelessWidget {
   @override
@@ -11,6 +12,7 @@ class GroupPage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           PaddingDemo(),
+          ConstrainDemo(),
         ],
       ),
     );
