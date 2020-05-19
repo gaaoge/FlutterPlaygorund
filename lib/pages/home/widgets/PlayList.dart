@@ -19,6 +19,12 @@ class PlayList extends StatelessWidget {
           subtitle: '布局',
           path: '/layout',
         ),
+        PlayItem(
+          icon: Icons.filter_3,
+          title: 'group',
+          subtitle: '容器',
+          path: '/group',
+        ),
       ],
     );
   }
